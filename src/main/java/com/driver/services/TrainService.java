@@ -108,7 +108,7 @@ public class TrainService {
             }
         }
 
-       return count;
+       return count+2;
     }
 
     public Integer calculatePeopleBoardingAtAStation(Integer trainId,Station station) throws Exception{
